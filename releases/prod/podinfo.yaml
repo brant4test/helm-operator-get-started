@@ -16,5 +16,5 @@ spec:
   values:
     image:
       repository: brant4test/podinfo
-      tag: 0.4.12
+      tag: 0.4.11
     replicaCount: 3
