@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: brant4test/podinfo
-      tag: stg-qqkppako
+      tag: stg-d6n1vhwn
     replicaCount: 2
     hpa:
       enabled: true
