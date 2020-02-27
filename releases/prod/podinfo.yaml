@@ -2,13 +2,13 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: podinfo-prod
+  name: podinfo-prod-github
   namespace: prod
   annotations:
     fluxcd.io/automated: "true"
     filter.fluxcd.io/chart-image: semver:~0.4
 spec:
-  releaseName: podinfo-prod
+  releaseName: podinfo-prod-github
   chart:
     git: https://github.com/brant4test/helm-operator-get-started.git
     path: charts/podinfo
