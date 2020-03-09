@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: brant4test/podinfo
-      tag: dev-zr0xj9fk
+      tag: dev-nqsmygjk
     replicaCount: 1
     hpa:
       enabled: false
